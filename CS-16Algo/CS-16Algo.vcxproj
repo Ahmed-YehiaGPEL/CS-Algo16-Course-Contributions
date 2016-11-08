@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{27D1E2B4-CAB8-4C07-8403-DE4DACE56516}</ProjectGuid>
+    <ProjectGuid>{10FEFCD9-C1F8-478A-8B54-EED60B159AF5}</ProjectGuid>
     <RootNamespace>EditDistanceDP</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
     <ProjectName>CS-16Algo</ProjectName>
@@ -122,7 +122,6 @@
     <ClCompile Include="AssemblyLine.cpp" />
     <ClCompile Include="EditDistance.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="Source1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AssemblyLine.h" />
