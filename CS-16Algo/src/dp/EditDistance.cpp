@@ -1,10 +1,10 @@
 #include "EditDistance.h"
 
-int EditDistance::minOfThree(int x, int y, int z)
+int EditDistance::minOfThree(int x, int y, int z) const
 {
 	return std::min(std::min(x, y), z);
 }
-int EditDistance::GetEditDistance(char* str1, char* str2, int l1, int l2,const int MaxSize)
+int EditDistance::GetEditDistance(char* str1, char* str2, int l1, int l2,const int MaxSize) const
 {
 	std::vector<std::vector<int>> dp(MaxSize, std::vector<int>(MaxSize));
 	/*Start algorithm*/

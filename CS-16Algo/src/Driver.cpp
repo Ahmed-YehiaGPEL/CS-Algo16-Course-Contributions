@@ -1,14 +1,12 @@
 #include <iostream>
 #include <string>
-#include "EditDistance.h"
-#include "AssemblyLine.h"
+#include "../inc/dp/AssemblyLine.h"
+#include "../inc/dp/FastBoundedFib.h"
+#include "../inc/dp/LCS.h"
+#include "../inc/dp/KnapSack.h"
 
 #define MAX_STR_SIZE 200
 using namespace std;
-
-const int NUM_LINES = 4;
-
-
 
 int main() {
 	/**************************Edit Distance problem***************************************/
@@ -29,9 +27,25 @@ int main() {
 	int entryTime[] = { 10, 12 }, exitTime[] = { 18, 7 };
 
 	cout << assemble->CalculateMinTime(stationTime, timeFromLineToLine, entryTime, exitTime) << endl;
-	
+	/************************Fibo************************/
+	FastBoundedFibonacci fb;
+	cout << fb.CalculateBoundedFibonacci(10) << endl;
+	/*****************************LCS***********************/
+	auto lc = new LCS();
+	char* s1;
+	char* s2;
+	s1 = "AGGTAB";
+	s2 = "GXTXAYB";
+	cout << lc->GetLCS(s1, s2) << endl;
+	/***Knap Sack***/
+	KnapSack ks;
+	vector<int> v({60,100,120});
+	vector<int> w({ 10,20,30 });
+	auto tW = 50;
+	cout << ks.SolveKnapSack(tW, w,v) << endl;
+	/*END*/
 	system("pause");
-	
+	delete lc;
 	delete assemble;
 	delete edObj;
 	return 0;

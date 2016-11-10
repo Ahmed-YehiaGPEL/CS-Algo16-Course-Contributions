@@ -1,4 +1,4 @@
-#include "AssemblyLine.h"
+#include "../../inc/dp/AssemblyLine.h"
 
 int AssemblyLine::CalculateMinTime(std::vector<std::vector<int>> stationTime, std::vector<std::vector<int>> lineTime, int *entryTime, int *exitTime)
 {

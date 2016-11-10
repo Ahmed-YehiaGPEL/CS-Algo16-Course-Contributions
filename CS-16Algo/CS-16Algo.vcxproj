@@ -119,13 +119,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AssemblyLine.cpp" />
-    <ClCompile Include="EditDistance.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="src\dp\AssemblyLine.cpp" />
+    <ClCompile Include="src\dp\EditDistance.cpp" />
+    <ClCompile Include="src\dp\FastBoundedFib.cpp" />
+    <ClCompile Include="src\dp\KnapSack.cpp" />
+    <ClCompile Include="src\dp\LCS.cpp" />
+    <ClCompile Include="src\Driver.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AssemblyLine.h" />
-    <ClInclude Include="EditDistance.h" />
+    <ClInclude Include="inc\dp\AssemblyLine.h" />
+    <ClInclude Include="inc\dp\EditDistance.h" />
+    <ClInclude Include="inc\dp\FastBoundedFib.h" />
+    <ClInclude Include="inc\dp\KnapSack.h" />
+    <ClInclude Include="inc\dp\LCS.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

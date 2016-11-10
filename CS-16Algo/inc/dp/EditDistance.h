@@ -5,7 +5,7 @@
 using namespace std;
 class EditDistance {
 private:
-	int minOfThree(int, int, int);
+	int minOfThree(int, int, int) const;
 public:
-	int GetEditDistance(char*, char*, int, int,const int);
+	int GetEditDistance(char*, char*, int, int,const int) const;
 };

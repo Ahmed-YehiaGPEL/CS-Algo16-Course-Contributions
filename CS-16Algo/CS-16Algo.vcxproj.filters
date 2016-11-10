@@ -13,24 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\DP">
+      <UniqueIdentifier>{52d5c4d0-8663-4613-935c-7e247935cf7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DP">
+      <UniqueIdentifier>{da52397b-7f7d-4072-959c-a34cf1f9925e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\dp\AssemblyLine.cpp">
+      <Filter>Source Files\DP</Filter>
     </ClCompile>
-    <ClCompile Include="EditDistance.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\dp\EditDistance.cpp">
+      <Filter>Source Files\DP</Filter>
     </ClCompile>
-    <ClCompile Include="AssemblyLine.cpp">
+    <ClCompile Include="src\dp\FastBoundedFib.cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dp\KnapSack.cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dp\LCS.cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Driver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="EditDistance.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="inc\dp\AssemblyLine.h">
+      <Filter>Header Files\DP</Filter>
     </ClInclude>
-    <ClInclude Include="AssemblyLine.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="inc\dp\EditDistance.h">
+      <Filter>Header Files\DP</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\dp\FastBoundedFib.h">
+      <Filter>Header Files\DP</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\dp\KnapSack.h">
+      <Filter>Header Files\DP</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\dp\LCS.h">
+      <Filter>Header Files\DP</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
