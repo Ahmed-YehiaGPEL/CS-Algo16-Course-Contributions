@@ -1,6 +1,6 @@
 #include "../../inc/dp/AssemblyLine.h"
 
-int AssemblyLine::CalculateMinTime(std::vector<std::vector<int>> stationTime, std::vector<std::vector<int>> lineTime, int *entryTime, int *exitTime)
+int AssemblyLine::CalculateMinTime(std::vector<std::vector<int>> stationTime, std::vector<std::vector<int>> lineTime, int *entryTime, int *exitTime) const
 {
 	std::vector<int>  T1(stationTime[0].size()), T2(stationTime[0].size());
 	T1[0] = (stationTime[0][0] + entryTime[0]);

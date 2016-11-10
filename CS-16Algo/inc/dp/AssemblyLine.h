@@ -17,5 +17,5 @@ public:
 		Final Get the min solution with adding exit time:
 		min(T1[NUM] + x[0], T2[NUM] + x[1]);
 	*/
-	int CalculateMinTime(std::vector<std::vector<int> >, std::vector<std::vector<int> >, int*, int*);
+	int CalculateMinTime(std::vector<std::vector<int> >, std::vector<std::vector<int> >, int*, int*) const;
 };
