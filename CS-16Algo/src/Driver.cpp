@@ -4,6 +4,7 @@
 #include "../inc/dp/FastBoundedFib.h"
 #include "../inc/dp/LCS.h"
 #include "../inc/dp/KnapSack.h"
+#include "../inc/dp/EditDistance.h"
 
 #define MAX_STR_SIZE 200
 using namespace std;
