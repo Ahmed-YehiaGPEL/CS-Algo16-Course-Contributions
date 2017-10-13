@@ -1,4 +1,4 @@
-#include "FastBoundedFib.h"
+#include "../../inc/dp/FastBoundedFib.h"
 
 FastBoundedFibonacci::FastBoundedFibonacci()
 {

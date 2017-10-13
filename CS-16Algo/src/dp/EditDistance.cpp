@@ -1,4 +1,4 @@
-#include "EditDistance.h"
+#include "../../inc/dp/EditDistance.h"
 
 int EditDistance::minOfThree(int x, int y, int z) const
 {

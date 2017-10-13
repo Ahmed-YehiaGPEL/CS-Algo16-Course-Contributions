@@ -1,4 +1,4 @@
-#include "LCS.h"
+#include "../../inc/dp/LCS.h"
 
 int LCS::GetLCS(char* str1, char* str2)
 {

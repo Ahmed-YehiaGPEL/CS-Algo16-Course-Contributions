@@ -5,11 +5,13 @@
 #include "../inc/dp/LCS.h"
 #include "../inc/dp/KnapSack.h"
 #include "../inc/dp/EditDistance.h"
-
+#define FUNCTION(defintio,type){int defintio(int x, int y){return x type y ? x : y;}}
+#define foreach(start,end) {for(auto start : end){}}
 #define MAX_STR_SIZE 200
 using namespace std;
 
 int main() {
+	
 	/**************************Edit Distance problem***************************************/
 	char* x1 = "sunday";
 	char* x2 = "monday9o";

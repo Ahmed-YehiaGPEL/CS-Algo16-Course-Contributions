@@ -9,10 +9,13 @@ int KnapSack::SolveKnapSack(int totalWeight, std::vector<int> weight, std::vecto
 	{
 		for (auto w = 0; w <= totalWeight;w++)
 		{
-			if (i ==0 || w == 0)
+			if (i == 0 || w == 0)
 				knapSackDP[i][w] = 0;
-			else if (weight[i-1] <= w)
-				knapSackDP[i][w] = max(value[i - 1] + knapSackDP[i - 1][w - weight[i - 1], knapSackDP[i - 1][w]);
+			else if (weight[i - 1] <= w)
+			{
+				knapSackDP[i][w] = max(value[i - 1] + knapSackDP[i - 1][w - weight[i - 1]], knapSackDP[i - 1][w]);
+
+			}
 			else
 				knapSackDP[i][w] = knapSackDP[i - 1][w];
 		}
